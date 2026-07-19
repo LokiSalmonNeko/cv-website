@@ -1,0 +1,274 @@
+body {
+    background-color: var(--ts-gray-50);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* ---- Hero / Header ---- */
+.cv-hero {
+    border-bottom: 1px solid var(--ts-gray-200);
+    padding: 4rem 0 3rem;
+    background-color: var(--ts-white);
+}
+
+.cv-hero-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.cv-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+.cv-name {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+    line-height: 1.1 !important;
+    margin: 0 !important;
+}
+
+.cv-subtitle {
+    font-size: 1rem;
+    color: var(--ts-gray-700);
+    margin-top: 0.5rem;
+}
+
+.cv-tagline {
+    font-size: 0.875rem;
+}
+
+/* ---- Main Content ---- */
+.cv-main {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+/* ---- Section ---- */
+.cv-section {
+    margin-bottom: 2rem;
+}
+
+.cv-section-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ts-gray-500);
+    margin-bottom: 0.6rem;
+    padding-left: 0.1rem;
+}
+
+/* ---- Card ---- */
+.cv-card {
+    border-radius: 8px !important;
+    border: 1px solid var(--ts-gray-200) !important;
+    box-shadow: none !important;
+}
+
+.cv-card .ts-content {
+    padding: 1.25rem 1.5rem !important;
+}
+
+/* ---- Entry (individual item in a section) ---- */
+.cv-entry {
+    padding: 0.75rem 0;
+}
+
+.cv-entry:first-child {
+    padding-top: 0;
+}
+
+.cv-entry:last-child {
+    padding-bottom: 0;
+}
+
+.cv-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.35rem;
+}
+
+.cv-entry-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--ts-gray-900);
+}
+
+.cv-entry-role {
+    font-size: 0.875rem;
+    color: var(--ts-gray-600);
+}
+
+.cv-entry-period {
+    font-size: 0.8rem;
+    color: var(--ts-gray-500);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.cv-entry-desc {
+    font-size: 0.875rem;
+    color: var(--ts-gray-700);
+    line-height: 1.65;
+    margin: 0.2rem 0 0.35rem;
+}
+
+.cv-entry-note {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.cv-uwub {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* ---- Links row ---- */
+.cv-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.cv-links .ts-link {
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.cv-links .ts-icon {
+    font-size: 0.7em;
+}
+
+/* ---- Sub-items (e.g. S4N LINKS, S4N SHOP) ---- */
+.cv-sub-items {
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.cv-sub-item {
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.cv-sub-title {
+    font-weight: 600;
+}
+
+/* ---- Contact grid ---- */
+.cv-contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.cv-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.875rem;
+}
+
+.cv-contact-icon {
+    color: var(--ts-gray-500);
+    font-size: 0.875rem;
+    width: 1rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ---- Records (PCL history) ---- */
+.cv-records {
+    margin: 0.75rem 0 0.5rem;
+    border-left: 2px solid var(--ts-gray-200);
+    padding-left: 0.85rem;
+}
+
+.cv-records-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+.cv-record-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.cv-record-item {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+}
+
+.cv-record-event {
+    font-weight: 500;
+    color: var(--ts-gray-800);
+    min-width: 12rem;
+}
+
+.cv-record-role {
+    font-size: 0.82rem;
+}
+
+/* ---- Divider tweaks ---- */
+.ts-divider {
+    margin: 0 !important;
+}
+
+/* ---- Footer ---- */
+.cv-footer {
+    border-top: 1px solid var(--ts-gray-200);
+    padding: 1.25rem 0;
+    background-color: var(--ts-white);
+}
+
+.cv-footer-text {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 640px) {
+    .cv-name {
+        font-size: 2.2rem !important;
+    }
+
+    .cv-hero {
+        padding: 2.5rem 0 2rem;
+    }
+
+    .cv-entry-header {
+        flex-direction: column;
+        gap: 0.15rem;
+    }
+
+    .cv-entry-period {
+        order: -1;
+    }
+
+    .cv-record-event {
+        min-width: unset;
+    }
+
+    .cv-record-item {
+        flex-direction: column;
+        gap: 0.05rem;
+    }
+}
